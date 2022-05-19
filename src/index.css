@@ -8,7 +8,9 @@
   background-color: #f5f5dc;
   padding: 20px;
 }
-
+.App {
+  max-width: 1200px;
+}
 .toprow {
   display: flex;
 }
@@ -16,4 +18,5 @@
 .secondrow {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
 }
