@@ -9,8 +9,6 @@
   padding: 20px;
 }
 
-.App {
+.toprow {
   display: grid;
-  margin: auto;
-  max-width: 1200px;
 }
