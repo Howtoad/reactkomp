@@ -19,22 +19,26 @@
     {
       "title": "On-time delivery",
       "text": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Aliquam",
-      "icon": "FiTruck"
+      "icon": "< FaTruck /> ",
+      "backgroundcolor": "#005aee"
     },
     {
       "title": "Parcels",
       "text": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Aliquam",
-      "icon": "FaBox"
+      "icon": "< FaBox /> ",
+      "backgroundcolor": "#ffa767"
     },
     {
       "title": "Quality Check",
       "text": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Aliquam",
-      "icon": "FaClipboardCheck"
+      "icon": "< FaClipboardCheck />",
+      "backgroundcolor": "#0aacdc"
     },
     {
       "title": "Costumer service",
       "text": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Aliquam",
-      "icon": "BsFillTelephoneInboundFill"
+      "icon": "< BsFillTelephoneInboundFill />",
+      "backgroundcolor": "#597aef"
     }
   ]
 }

@@ -42,7 +42,15 @@ function App() {
         )}
       </div>
       <div className="secondrow">
-        <Coloredcards />
+        {coloreddata &&
+          coloreddata.map((cardsmapped) => (
+            <Coloredcards
+              backgroundcolor={cardsmapped.backgroundcolor}
+              title={cardsmapped.title}
+              text={cardsmapped.text}
+              icon={cardsmapped.icon}
+            />
+          ))}
       </div>
     </div>
   );
