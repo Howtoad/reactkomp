@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Coloredcards from "./Coloredcards";
 import Outdoor from "./Outdoor";
 import Surfing from "./Surfing";
 import useFetch from "./useFetch";
@@ -11,9 +12,8 @@ function App() {
   } = useFetch("http://localhost:8000/card");
 
   const { data: outdoordata } = useFetch("http://localhost:8000/outdoor");
-  setTimeout(() => {
-    console.log(outdoordata.smallimages);
-  }, 1000);
+
+  const { data: coloreddata } = useFetch("http://localhost:8000/coloredcards");
 
   //const [mappedData, setMappedData] = useState(null);
 
@@ -40,6 +40,9 @@ function App() {
             smallimages={outdoordata.smallimages}
           />
         )}
+      </div>
+      <div className="secondrow">
+        <Coloredcards />
       </div>
     </div>
   );

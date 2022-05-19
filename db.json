@@ -14,5 +14,27 @@
       "images/lonelyisland.png",
       "images/riverview.png"
     ]
-  }
+  },
+  "coloredcards": [
+    {
+      "title": "On-time delivery",
+      "text": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Aliquam",
+      "icon": "FiTruck"
+    },
+    {
+      "title": "Parcels",
+      "text": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Aliquam",
+      "icon": "FaBox"
+    },
+    {
+      "title": "Quality Check",
+      "text": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Aliquam",
+      "icon": "FaClipboardCheck"
+    },
+    {
+      "title": "Costumer service",
+      "text": "Lorem ipsum dolor sit amet, consecetur adipiscing elit. Aliquam",
+      "icon": "BsFillTelephoneInboundFill"
+    }
+  ]
 }
