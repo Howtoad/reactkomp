@@ -23,22 +23,24 @@ function App() {
   //console.log(mappedData);
   return (
     <div className="App">
-      {surfingdata && (
-        <Surfing
-          title={surfingdata.title}
-          image={surfingdata.image}
-          category={surfingdata.category}
-          text={surfingdata.text}
-        />
-      )}
-      {outdoordata && (
-        <Outdoor
-          title={outdoordata.title}
-          imagedefault={outdoordata.imagedefault}
-          text={outdoordata.text}
-          smallimages={outdoordata.smallimages}
-        />
-      )}
+      <div className="toprow">
+        {surfingdata && (
+          <Surfing
+            title={surfingdata.title}
+            image={surfingdata.image}
+            category={surfingdata.category}
+            text={surfingdata.text}
+          />
+        )}
+        {outdoordata && (
+          <Outdoor
+            title={outdoordata.title}
+            imagedefault={outdoordata.imagedefault}
+            text={outdoordata.text}
+            smallimages={outdoordata.smallimages}
+          />
+        )}
+      </div>
     </div>
   );
 }

@@ -57,9 +57,9 @@ const Outdoor = (props) => {
         <h2 className="secondbox__h2">{props.title}</h2>
         <p className="secondbox__p">{props.text}</p>
         <div className="secondbox__imgs">
-          <img src={props.smallimages[0]}></img>
-          <img src={props.smallimages[1]}></img>
-          <img src={props.smallimages[2]}></img>
+          {props.smallimages.map((smallimg) => (
+            <img src={smallimg}></img>
+          ))}
         </div>
       </div>
     </div>
