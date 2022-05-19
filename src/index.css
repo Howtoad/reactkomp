@@ -10,5 +10,10 @@
 }
 
 .toprow {
-  display: grid;
+  display: flex;
+}
+
+.secondrow {
+  display: flex;
+  justify-content: space-between;
 }
