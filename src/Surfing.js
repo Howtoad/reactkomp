@@ -4,24 +4,27 @@ import { css } from "@emotion/react";
 const Surfing = (props) => {
   const styles = {
     card: css`
-      border: 1px solid black;
       max-width: 300px;
       width: 100%;
       border-radius: 10px;
+      background-color: white;
+      grid-row: 1/2;
       & h3 {
         color: blue;
         font-size: 14px;
         padding-left: 15px;
         letter-spacing: 2.4px;
+        padding-top: 15px;
       }
       & h2 {
         font-size: 24px;
         padding-left: 15px;
+        padding-top: 15px;
       }
       & p {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 15px;
         color: grey;
+        max-width: 280px;
       }
       & img {
         width: 100%;
